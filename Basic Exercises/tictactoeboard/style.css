@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+
+h1 {
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+table {
+  margin: 20px auto 0 auto;
+  width: 50%;
+  padding: 0 0 0 0;
+  border-collapse: collapse;
+}
+
+td:nth-of-type(1) {
+  border-left: 0;
+}
+
+td:nth-of-type(3) {
+  border-right: 0;
+}
+
+tr:nth-of-type(1) td {
+  border-top: 0;
+}
+
+tr:nth-of-type(3) td {
+  border-bottom: 0;
+}
+
+tr td {
+  border: 1.5px solid black;
+  height: 33.33%;
+  width: 33.33%;
+  padding: 0 0 0 0;
+}
+
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+.board {
+  height: 50%;
+  width: 50%;
+  margin: 30px auto 0 auto;
+}
