@@ -23,6 +23,7 @@ p {
 .date {
   color: #F17F29;
   font-weight: 600;
+  letter-spacing: 5px;
 }
 
 .quote {
