@@ -1,0 +1,31 @@
+body {
+  border: 20px solid #A8DCD1;
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
+
+div {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 2.5%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.date {
+  color: #F17F29;
+  font-weight: 600;
+}
+
+.quote {
+  border-left: 10px solid #65DEF1;
+  padding-left: 1%;
+}
