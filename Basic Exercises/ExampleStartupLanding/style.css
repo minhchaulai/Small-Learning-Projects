@@ -1,0 +1,21 @@
+.vertical-center {
+  min-height: 100vh;
+  background-color: #EFF6EE;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  color: #53CE47;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+}
+
+hr {
+  width: 30%;
+  border: 1px solid white;
+}
+
+.orientation {
+    text-decoration: none !important;
+}
